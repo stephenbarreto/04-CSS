@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Planos de Internet - VeloxNet</title>
+</head>
+<body>
+    <h1>Nossos Planos de Internet</h1>
+    <p>Conheça nossas opções de planos de internet.</p>
+    
+    <ul>
+        <li><a href="index.html">Página Inicial</a></li>
+        <li><a href="planos.html">Planos de Internet</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        <li><a href="https://impulseagencia.com/blog/marketing-para-provedores-de-internet/" target="_blank">Visite nosso site principal</a></li>
+    </ul>
+    
+    <img src="images/plano1.jpg" alt="Plano de Internet 1" width="100" >
+    <img src="images/plano2.jpg" alt="Plano de Internet 1" width="100" >
+    
+    <h2>Escolha o seu plano:</h2>
+    <form action="escolher-plano.php" method="post">
+        <label for="plano">Selecione um plano:</label>
+        <select id="plano" name="plano">
+            <option value="plano1">Plano 1</option>
+            <option value="plano2">Plano 2</option>
+        </select>
+        <br>
+        <input type="radio" id="mensal" name="periodo" value="mensal" checked>
+        <label for="mensal">Mensal</label>
+        <input type="radio" id="anual" name="periodo" value="anual">
+        <label for="anual">Anual</label>
+        <br>
+        <input type="submit" value="Escolher Plano">
+    </form>
+</body>
+</html>

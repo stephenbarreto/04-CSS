@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>VeloxNet - Provedor de Internet</title>
+</head>
+<body>
+    <h1>Bem-vindo à VeloxNet - Seu Provedor de Internet</h1>
+    <p>Navegue conosco em alta velocidade!</p>
+    
+    <ul>
+        <li><a href="index.html">Página Inicial</a></li>
+        <li><a href="planos.html">Planos de Internet</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        <li><a href="https://impulseagencia.com/blog/marketing-para-provedores-de-internet/" target="_blank">Visite nosso site principal</a></li>
+    </ul>
+    
+    <img src="images/veloxnet-logo.png" alt="Logotipo da VeloxNet" width="150">
+    
+    <h2>Assista ao nosso vídeo de apresentação:</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/frhFbSTrWOI?si=qwcEe66gdF-Zb6N8&amp;start=4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <br><img src="images/img1.jpeg" alt="Logotipo da VeloxNet" width="560">
+   
+    <h2>Formulário de Pesquisa de Planos:</h2>
+    <form action="pesquisar-planos.php" method="get">
+        <label for="localizacao">Sua Localização:</label>
+        <input type="text" id="localizacao" name="localizacao" required>
+        <br>
+        <label for="velocidade">Velocidade Desejada (Mbps):</label>
+        <input type="number" id="velocidade" name="velocidade" required>
+        <br>
+        <label for="roteadores">Quantidade de Roteadores Desejada:</label>
+        <input type="number" id="roteadores" name="roteadores" required>
+        <br>
+        <label for="assinatura-newsletter">Receber newsletter?</label>
+        <input type="checkbox" id="assinatura-newsletter" name="assinatura-newsletter">
+        <label for="comentarios"> <br>Comentários:</br></label>
+        <textarea id="comentarios" name="comentarios" rows="4"></textarea>
+        <br>
+        <input type="submit" value="Pesquisar Planos">
+    </form>
+    
+    <h2>Tabela de Velocidades:</h2>
+    <table>
+        <tr>
+            <th>Plano</th>
+            <th>Velocidade (Mbps)</th>
+            <th>Preço Mensal (R$)</th>
+            <th>Quantidade de Canais</th>
+            <th>Contrato Mínimo (meses)</th>
+        </tr>
+        <tr>
+            <td>Plano Básico</td>
+            <td>20 MB</td>
+            <td>39,90</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>Plano Standard</td>
+            <td>50 MB</td>
+            <td>59,90</td>
+            <td>50</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>Plano Premium</td>
+            <td>100 MB</td>
+            <td>79,90</td>
+            <td>100</td>
+            <td>24</td>
+        </tr>
+        <tr>
+            <td>Plano Família</td>
+            <td>200 MB</td>
+            <td>99,90</td>
+            <td>150</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>Plano Empresarial</td>
+            <td>500 MB</td>
+            <td>149,90</td>
+            <td>200</td>
+            <td>24</td>
+        </tr>
+    </table>
+    </table>
+    
+</body>
+</html>
