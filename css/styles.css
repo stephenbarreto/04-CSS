@@ -1,0 +1,155 @@
+/* Estilo geral para o corpo e centralização do conteúdo */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Estilo para cabeçalhos */
+h1, h2, h3 {
+    font-family: 'Verdana', sans-serif;
+    color: #333333;
+}
+
+/* Estilo para parágrafos */
+p {
+    font-family: 'Georgia', serif;
+    color: #666;
+}
+
+/* Estilo para links */
+a {
+    color: #009688;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para a barra de navegação */
+ul {
+    list-style-type: none;
+    margin: 20px 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #f0f0f0;
+    flex-wrap: wrap; /* Adicionado para permitir que os itens se ajustem em telas menores */
+}
+
+li {
+    margin: 0 10px; /* Reduzido o espaçamento entre os itens para telas menores */
+}
+
+/* Estilo para formulários */
+form {
+    margin: 20px 0;
+    max-width: 600px; /* Adicionado limite de largura para evitar que o formulário fique muito largo em telas grandes */
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+.FlexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 90%;
+    flex-direction: row;
+    padding: auto;
+    min-height: 456px;
+    height: auto;
+}
+
+.FlexContainer div {
+    justify-content: center;
+    justify-items: center;
+    width: 450px;
+    height: 350px;
+    margin: 4px;
+    background-color: rgb(124, 131, 133);
+    padding: auto;
+}
+
+/* Estilo para tabelas */
+table {
+    width: 100%; /* Alterado para ocupar 100% da largura disponível */
+    margin: 20px 0;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+#empresa {
+    margin: 3%;
+    font-size: 20px;
+    text-align: justify;
+}
+
+/* Estilo para o rodapé */
+footer {
+    background-color: #1b0064;
+    color: #fff;
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+}
+
+/* Estilo específico para todos os textos do rodapé */
+footer p, footer h3 {
+    color: #fff;
+    margin: 5px; /* Adicionado espaçamento interno para melhorar a legibilidade */
+    font-size: 14px; /* Ajuste o tamanho da fonte conforme necessário */
+}
+
+/* Estilo para redes sociais */
+#social a {
+    color: #fff;
+    margin-right: 10px;
+}
+
+    
+
+
+/* Estilo Responsivo */
+@media only screen and (min-width: 800px) {
+    /* Ajustes para telas maiores que 600px de largura */
+    ul {
+        li {
+            margin: 0 15px; /* Restaurado o espaçamento original para telas maiores */
+        }
+    }
+
+    table {
+        max-width: 800px; /* Adicionado limite de largura para evitar que a tabela fique muito larga em telas grandes */
+    }
+
+    
+
+    /* Ajuste o tamanho da fonte para o rodapé em telas maiores */
+    footer p, footer h3 {
+        font-size: 16px;
+    }
+}
+
