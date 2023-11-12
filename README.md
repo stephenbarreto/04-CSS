@@ -1,7 +1,7 @@
-# 03-HTML
-Aprofundando nos conhecimentos da linguagem HTML
+# 04-CSS
+Aprofundamento nos aspectos da linguagem CSS
 
 ## Autor: Stephen Dias Barreto
 
 # Deploy
-https://03-html.netlify.app/
+https://04-css.netlify.app/
